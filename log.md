@@ -7,6 +7,6 @@
 
 **Thoughts:** New challenge, new goals. Lots to learn. 
 
-**Link to work:** [CSS Grid](https://learn.freecodecamp.org/responsive-web-design/css-grid)
-
-                  [Tribute Page](https://codepen.io/CromixPT/pen/MBPLOV)
+**Link to work:** 
+[CSS Grid](https://learn.freecodecamp.org/responsive-web-design/css-grid)
+[Tribute Page](https://codepen.io/CromixPT/pen/MBPLOV)
