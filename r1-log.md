@@ -5,6 +5,6 @@ The log of my #100DaysOfCode challenge. Started on [August 08, Wednesday, 2018].
 ## Log
 
 ### R1D1 
-Started a Weather App. Worked on the draft layout of the app, struggled with OpenWeather API http://www.example.com
+Progress on freeCodeCamp CSS section.
 
 ### R1D2
