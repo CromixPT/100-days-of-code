@@ -1,0 +1,74 @@
+body{
+    background-color: #7cacf9;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  
+  #title{
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    font-size: 3em;
+    font-style: italic;
+  }
+  
+  #form-area{
+    background-color: white;
+    max-width: 80%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .labels{
+    padding-bottom: 10px;
+    display: inline-block;
+    text-align: right;
+    width: 25%;
+  }
+  
+  .columns{
+      display: inline-block;
+      text-align: left;
+      width: 48%;
+      vertical-align: middle;
+  }
+  
+  .input-fields{
+      height: 20px;
+      width: 280px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #c0c0c0;
+      border-radius: 5px;
+  }
+  
+  .dropdown {
+      height: 35px;
+      width: 280px;
+      padding: 5px;
+      margin: 10px;
+      border: 1px solid #c0c0c0;
+      border-radius: 1px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  .radio, .checkbox {
+    position: relative;
+    left: -30px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  .rating{
+    float: left;
+    margin-right: 5px;
+  }
+
+textarea{
+
+  }

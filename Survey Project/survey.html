@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600i" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="survey.css" />
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title"> Survey Form</h1>
+    <div id="form-area">
+        <p id="description"> Please help us make a study about the most common personal habits.
+            <p>
+                <form id="survey-form">
+                    <div class="row">
+                        <div class="labels">
+                            <label for="name" id="name-label">* Name: </label>
+                        </div>
+                        <div class="columns">
+                            <input type="text" name="name" id="name" class="input-fields" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="email" id="email-label">* Email: </label>
+                        </div>
+                        <div class="columns">
+                            <input type="email" name="email" id="email" class="input-fields" placeholder="Enter your Email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="number" id="number-label">* Age: </label>
+                        </div>
+                        <div class="columns">
+                            <input type="number" name="number" id="number" class="input-fields" placeholder="Enter you age" min="10" max="100">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="hours" id="hours-label"> Daily Exercise: </label>
+                        </div>
+                        <div class="columns">
+                            <select id="dropdown" class="dropdown">
+                                <option value="" selected>--Please choose an option--</option>
+                                <option value="1"> 1h to 3h</option>
+                                <option value="1"> 4h to 6h</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="favourite" id="favourite-label"> Favourite Exercise: </label>
+                        </div>
+                        <div class="columns">
+                            <ul>
+                                <li class="radio">
+                                    <label>
+                                        Running
+                                        <input type="radio" id="run" name="favourite" class="rating" value="1" />
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        Swiming
+                                        <input type="radio" id="swim" name="favourite" class="rating" value="2" />
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        Cycling
+                                        <input type="radio" id="cycle" name="favourite" class="rating" value="3"/>
+                                    </label>
+                                </li>
+                                <li class="radio">
+                                    <label>
+                                        Triatlo
+                                        <input type="radio" id="Triatlo" name="favourite" class="rating" value="4" />
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label for="location" id="location">Where: </label>
+                        </div>
+                        <div class="columns">
+                            <ul>
+                                <li class="ratings">
+                                    <label> Gymn
+                                        <input type="checkbox" name="location" id="gymn" value="gymn">
+                                    </label>
+                                </li>
+                                <li class="ratings">
+                                    <label> Park
+                                        <input type="checkbox" name="location" id="park" value="park">
+                                    </label>
+                                </li>
+                                <li class="ratings">
+                                    <label> Beach
+                                        <input type="checkbox" name="location" id="beach" value="beach">
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="labels">
+                            <label>Coments: </label>
+                        </div>
+                        <div class="columns">
+                            <textarea class="input-fields" placeholder="Aditional coments" style="height: 50px;resize: vertical;"></textarea>
+                        </div>
+                    </div>
+
+                    <button id="submit">Submit</button>
+                </form>
+    </div>
+</body>
+
+</html>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
