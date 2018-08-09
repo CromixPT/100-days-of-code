@@ -1,4 +1,4 @@
-header{
+header {
     position: fixed;
     top: 0;
     min-height: 75px;
@@ -9,21 +9,22 @@ header{
     background-color: #eee;
 }
 
-.logo{
-    background:LightSkyBlue;
+.logo {
+    background: LightSkyBlue;
     width: 60vw;
 }
 
-.nav-bar{
-    background:LightSalmon;
+.nav-bar {
+    background: LightSalmon;
 }
-.content{
-    background:PaleTurquoise;
+
+.content {
+    background: PaleTurquoise;
     text-align: center;
 }
 
-.footer{
-    background:LightPink;
+.footer {
+    background: LightPink;
 }
 
 nav {
@@ -52,6 +53,6 @@ a {
     margin: 0 auto;
 }
 
-div{
+div {
     position: static;
 }
