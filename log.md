@@ -15,7 +15,7 @@
 ### Day 2: August 09, 2018
 
 **Today's Progress**: Made some progress on udemy Web Developer bootcamp. Researched bootstrap 4 changes and made adaptations for the current project.
-                      Tried to do freeCodeCamp Product land page, but not there yet
+                      Tried to do freeCodeCamp Product land page, but not there yet. 
 
 **Thoughts:**: CSS turned to be harder than I expected, can't get my head arround the flex thingy to build a fixed navbar on top, BOOTSTRAP is so much easier.
 **Links to work done:**  
