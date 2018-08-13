@@ -38,3 +38,12 @@
 **Links to work done:**  
 [Product Landing page](https://codepen.io/CromixPT/pen/ZjwxBr)
 [Tech Docs](https://codepen.io/CromixPT/pen/VBgBWo)
+
+### Day 5: August 13, 2018
+
+**Today's Progress**: Finished the portfolio page at freeCodeCamp. Also dabled with C# and entityframework.
+
+**Thoughts:**: A day's learning.
+
+**Links to work done:**  
+
